@@ -25,7 +25,7 @@
 
 ```bash
 # Клонирование репозитория
-git clone https://github.com/mizzzzord/Map-App-1.git
+git clone https://github.com/mizzzzord/Map-App-2.git
 
 # Переход в директорию проекта
 cd Map-App-1
