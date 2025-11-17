@@ -1,50 +1,37 @@
-# Welcome to your Expo app 👋
+# Map App - React Native приложение с картой
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Мобильное приложение для работы с картами и управления изображениями, привязанными к географическим меткам.
 
-## Get started
+## Функциональность
 
-1. Install dependencies
+- **Отображение интерактивной карты** - Просмотр карты с возможностью масштабирования и перемещения
+- **Добавление меток долгим нажатием** - Создание новых меток простым долгим нажатием на карту
+- **Прикрепление изображений к меткам** - Добавление фото из галереи устройства к каждой метке
+- **Просмотр деталей метки** - Подробная информация о метке и прикрепленных изображениях
+- **Удаление меток и изображений** - Полное управление созданными данными
+- **Навигация между экранами** - Плавные переходы между картой и деталями меток
 
-   ```bash
-   npm install
-   ```
+## Технологии
 
-2. Start the app
+- **React Native** - Кроссплатформенная мобильная разработка
+- **Expo** - Упрощенная разработка и сборка приложений
+- **TypeScript** - Статическая типизация для надежности кода
+- **React Native Maps** - Интеграция интерактивных карт
+- **Expo Image Picker** - Выбор изображений из галереи устройства
+- **Expo Router** - Навигация между экранами приложения
+- **Expo SQLite** - Локальное хранение данных на устройстве
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Установка и запуск
 
 ```bash
-npm run reset-project
-```
+# Клонирование репозитория
+git clone https://github.com/mizzzzord/Map-App-1.git
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Переход в директорию проекта
+cd Map-App-1
 
-## Learn more
+# Установка зависимостей
+npm install
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Запуск приложения
+npx expo start
